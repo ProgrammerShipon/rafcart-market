@@ -1,0 +1,6 @@
+==> git repository 
+  https://github.com/ProgrammerShipon/rafcart-market.git
+
+==> npm init --y
+==> tailwind installation
+==> autoprefixer installation
