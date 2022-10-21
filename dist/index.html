@@ -84,11 +84,98 @@
     <nav class="bg-gray-800">
       <div class="container flex">
         <!-- all category -->
-        <div class="px-8 py-4 bg-primary flex items-center cursor-pointer">
+        <div
+          class="px-8 py-4 bg-primary flex items-center cursor-pointer relative group"
+        >
           <span class="text-white">
             <i class="fas fa-bars"></i>
           </span>
           <span class="capitalize ml-2 text-white"> All Categories </span>
+          <!-- Dropdown Menu bar -->
+          <div
+            class="absolute w-full left-0 top-full bg-white shadow-md py-3 divide-gray-300 divide-dashed capitalize opacity-0 group-hover:opacity-100 transition duration-300 invisible group-hover:visible"
+          >
+            <!-- single category start -->
+            <a
+              href="#"
+              class="px-6 py-3 flex items-center hover:bg-gray-100 transition"
+            >
+              <img
+                src="./images/icons/bed.svg"
+                class="w-5 h-5 object-contain"
+              />
+              <span class="ml-6 text-gray-600 text-sm"> Bedroom</span>
+            </a>
+            <!-- single category end -->
+
+            <!-- single category start -->
+            <a
+              href="#"
+              class="px-6 py-3 flex items-center hover:bg-gray-100 transition"
+            >
+              <img
+                src="./images/icons/sofa.svg"
+                class="w-5 h-5 object-contain"
+              />
+              <span class="ml-6 text-gray-600 text-sm"> sofa</span>
+            </a>
+            <!-- single category end -->
+
+            <!-- single category start -->
+            <a
+              href="#"
+              class="px-6 py-3 flex items-center hover:bg-gray-100 transition"
+            >
+              <img
+                src="./images/icons/office.svg"
+                class="w-5 h-5 object-contain"
+              />
+              <span class="ml-6 text-gray-600 text-sm capitalize"> Office</span>
+            </a>
+            <!-- single category end -->
+
+            <!-- single category start -->
+            <a
+              href="#"
+              class="px-6 py-3 flex items-center hover:bg-gray-100 transition"
+            >
+              <img
+                src="./images/icons/terrace.svg"
+                class="w-5 h-5 object-contain"
+              />
+              <span class="ml-6 text-gray-600 text-sm capitalize">
+                outdoor</span
+              >
+            </a>
+            <!-- single category end -->
+
+            <!-- single category start -->
+            <a
+              href="#"
+              class="px-6 py-3 flex items-center hover:bg-gray-100 transition"
+            >
+              <img
+                src="./images/icons/bed-2.svg"
+                class="w-5 h-5 object-contain"
+              />
+              <span class="ml-6 text-gray-600 text-sm capitalize">
+                Mattress</span
+              >
+            </a>
+            <!-- single category end -->
+
+            <!-- single category start -->
+            <a
+              href="#"
+              class="px-6 py-3 flex items-center hover:bg-gray-100 transition"
+            >
+              <img
+                src="./images/icons/restaurant.svg"
+                class="w-5 h-5 object-contain"
+              />
+              <span class="ml-6 text-gray-600 text-sm capitalize"> Dining</span>
+            </a>
+          </div>
         </div>
         <!-- navbar links -->
         <div

@@ -25,5 +25,11 @@ module.exports = {
       }
     },
   },
+  variants: {
+    extent: {
+      display: ['group-hover'],
+      visibility: ['group-hover']
+    }
+  },
   plugins: [],
 }
