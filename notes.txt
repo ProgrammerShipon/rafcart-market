@@ -4,3 +4,4 @@
 ==> npm init --y
 ==> tailwind installation
 ==> autoprefixer installation
+==> npm install -D @tailwindcss/forms
