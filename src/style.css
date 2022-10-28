@@ -33,4 +33,9 @@
   .layout-system input:checked + label {
     @apply bg-primary border-primary text-white;
   }
+
+  /* checkout input box */
+  .input-box {
+    @apply block w-full border border-gray-300 px-4 py-3 text-gray-600 text-sm rounded placeholder-gray-400 focus:border-primary focus:ring-0;
+  }
 }
